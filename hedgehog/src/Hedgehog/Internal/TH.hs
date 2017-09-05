@@ -12,7 +12,7 @@ import qualified Data.Ord as Ord
 import           Hedgehog.Internal.Discovery
 import           Hedgehog.Internal.Property
 
-import           Language.Haskell.TH
+import           Language.Haskell.TH hiding (TExpQ)
 import           Language.Haskell.TH.Syntax
 
 type TExpQ a =
